@@ -1,0 +1,17 @@
+.footer {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  background-color: var(--manatee);
+  padding: 10px;
+  color: var(--imperialRed);
+}
+
+.logo {
+  font-size: 30px;
+  color: var(--imperialRed);
+  padding: 2px;
+}
+
+.logo:hover {
+  color: var(--aliceBlue);
+}
