@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  margin: 0;
+  background-color: var(--manatee);
+  width: 100vw;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.title {
+  color: var(--imperialRed);
+  font-family: "Press Start 2P", cursive;
+  text-shadow: var(--spaceCadet) 1px 1px 1px;
+  font-weight: bolder;
+  font-size: 3vw;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
