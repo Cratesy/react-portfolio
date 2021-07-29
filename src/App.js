@@ -1,13 +1,20 @@
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
-import ProfilePicture from "./components/ProfilePicture";
+import Routes from "./Routes";
 
-function App() {
+import Navbar from "./components/NavBar";
+import Footer from "./components/Footer";
+import SkillSet from "./components/SkillSet";
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>hello Michael</h1>
-      <ProfilePicture />
-    </div>
+    <Router>
+      <Navbar />
+      <SkillSet />
+      <Routes />
+      <Footer />
+    </Router>
   );
-}
+};
 
 export default App;
