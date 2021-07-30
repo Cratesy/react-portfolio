@@ -16,7 +16,8 @@
   font-family: "Press Start 2P", cursive;
   text-shadow: var(--spaceCadet) 1px 1px 1px;
   font-weight: bolder;
-  font-size: 3vw;
+  font-size: 30px;
+  text-align: center;
 }
 
 .buttons {

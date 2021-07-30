@@ -4,6 +4,10 @@
   background-color: var(--manatee);
   padding: 10px;
   color: var(--imperialRed);
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100vw;
 }
 
 .logo {
@@ -13,5 +17,18 @@
 }
 
 .logo:hover {
-  color: var(--aliceBlue);
+  color: var(--spaceCadet);
+}
+
+@media screen and (max-width: 812px) {
+  .footer {
+    font-size: 3vw;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    padding: 0px;
+  }
+  .logo {
+    font-size: 20px;
+  }
 }
