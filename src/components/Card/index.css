@@ -1,0 +1,21 @@
+.project {
+  text-align: center;
+  color: var(--imperialRed);
+  font-family: "Press Start 2P", cursive;
+}
+
+.showcase {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.showcase img {
+  height: 400px;
+  width: 400px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
