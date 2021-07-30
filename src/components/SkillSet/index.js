@@ -1,7 +1,12 @@
 import React from "react";
 import { FaNodeJs, FaHtml5, FaReact, FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiMysql, SiMongodb, SiGraphql } from "react-icons/si";
+import {
+  SiMysql,
+  SiMongodb,
+  SiGraphql,
+  SiVisualstudiocode,
+} from "react-icons/si";
 
 import "./index.css";
 
@@ -31,6 +36,9 @@ const skillSet = () => {
       </i>
       <i className="logo" title="GraphQL">
         <SiGraphql title="GraphQL" />
+      </i>
+      <i className="logo" title="Visual Studio Code">
+        <SiVisualstudiocode title="Visual Studio Code" />
       </i>
     </div>
   );
