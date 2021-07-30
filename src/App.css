@@ -1,0 +1,14 @@
+:root {
+  --spaceCadet: #2b2d42;
+  --manatee: #8d99ae;
+  --aliceBlue: #edf2f4;
+  --imperialRed: #ef233c;
+  --amaranthRed: #d90429;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: var(--aliceBlue);
+}
