@@ -1,0 +1,18 @@
+.form {
+  text-align: center;
+  color: var(--imperialRed);
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+.contact-me {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  color: var(--imperialRed);
+}
+
+.input-box {
+  padding: 2px;
+  margin: 5px;
+  width: 60vw;
+}
