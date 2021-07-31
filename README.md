@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![MIT license](https://img.shields.io/badge/license-MIT-green)
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [React Portfolio](#react-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [deployed url](#deployed-url)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [screenshots](#screenshots)
 
-### `npm start`
+## deployed url
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://cratesy.github.io/react-portfolio/#/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Description
 
-### `npm test`
+I've been tasked with making a portfolio using react. I've made multiple pages and rendered them using assortment of components.
+I found having components made life easier when building up each page. It also makes the component reusable by passing it props.
+I used formspree react to submit the contact form, this emails me the form instantly.
+I also decided not to use any frameworks ie ("bootstrap") as i like to decide myself how it looks and which position it goes too, This however is very time consuming.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+```
+git clone git@github.com:Cratesy/react-portfolio.git
+cd react-portfolio
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As a user, you can visit my portfolio see my about me page,
+you can also navigate to my projects page and see all my projects ive been working on.
+As a user you can navigate to the contact me page and fill in a contact me form inputting email & message which will be sent to me.
+you can also click on resume to view/download my resume and click github or linkedin logos to take you to my relative page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+[MIT License](https://opensource.org/licenses/MIT)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contributing
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Mike](https://github.com/Cratesy)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Tests
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+None were need
 
-## Learn More
+## screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<img src="./public/assets/img/portfolio-image.PNG"
+alt="Portfolio"/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="./public/assets/img/portfolio-image-2.PNG"
+alt="Portfolio"/>
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="./public/assets/img/portfolio-image-3.PNG"
+alt="Portfolio"/>
