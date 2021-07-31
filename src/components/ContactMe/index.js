@@ -24,7 +24,7 @@ const ContactMe = () => {
       </div>
       <div>
         <textarea
-          className="input-box"
+          className="input-box message"
           id="message"
           name="message"
           placeholder="Message here!"
