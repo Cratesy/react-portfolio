@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Button from "../Button";
 
 import "./index.css";
@@ -11,15 +12,15 @@ const Navbar = (props) => {
           <h1 className="title">Michael Crates</h1>
         </div>
         <div className="buttons">
-          <a href="/">
+          <Link to="/">
             <Button name="About Me" />
-          </a>
-          <a href="/projects">
+          </Link>
+          <Link to="/projects">
             <Button name="Projects" />
-          </a>
-          <a href="/contact-me">
+          </Link>
+          <Link to="/contact-me">
             <Button name="Contact Me" />
-          </a>
+          </Link>
           <a href="https://drive.google.com/file/d/1P0R7viqD9GeouLT7PQu3S7xJ0Tr_DttE/view?usp=sharing">
             <Button name="Resume" />
           </a>
