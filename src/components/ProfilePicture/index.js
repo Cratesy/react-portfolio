@@ -7,7 +7,7 @@ const profilePicture = () => {
     <div>
       <img
         className="my-image center"
-        src="/assets/img/My image for portfolio.jpg"
+        src="./assets/img/My image for portfolio.jpg"
         alt="Michael Crates"
       />
     </div>

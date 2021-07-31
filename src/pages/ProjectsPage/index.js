@@ -15,35 +15,35 @@ const ProjectsPage = () => {
         <Card
           name="Travel Companion"
           url="https://natasha-mann.github.io/travel-app/"
-          image="/assets/img/travel companion.jpg"
+          image="./assets/img/travel companion.jpg"
           alt="Travel Companion"
         />
 
         <Card
           name="Pridely"
           url=""
-          image="/assets/img/Project coming soon.jpg"
+          image="./assets/img/Project coming soon.jpg"
           alt="Project coming soon"
         />
 
         <Card
           name="Tech Blog"
           url="https://stormy-bayou-37854.herokuapp.com/"
-          image="/assets/img/Tech-blog.jpg"
+          image="./assets/img/Tech-blog.jpg"
           alt="Tech Blog"
         />
 
         <Card
           name="Workout Tracker"
           url="https://frozen-falls-54533.herokuapp.com/"
-          image="/assets/img/workout tracker.jpg"
+          image="./assets/img/workout tracker.jpg"
           alt="workout tracker"
         />
 
         <Card
           name="Ecommerce-backend"
           url="https://github.com/Cratesy/E-Commerce-Back-End"
-          image="/assets/img/Ecommerce.PNG"
+          image="./assets/img/Ecommerce.PNG"
           alt="Ecommerce-backend"
         />
       </div>
