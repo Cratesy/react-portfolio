@@ -20,6 +20,10 @@
   color: var(--spaceCadet);
 }
 
+.small {
+  font-size: 8px;
+}
+
 @media screen and (max-width: 812px) {
   .footer {
     font-size: 3vw;
@@ -30,5 +34,8 @@
   }
   .logo {
     font-size: 20px;
+  }
+  .small {
+    font-size: 5px;
   }
 }

@@ -19,6 +19,9 @@ const Footer = () => {
           </i>
         </a>
       </footer>
+      <small className="small">
+        No frameworks was hurt in the making of this site
+      </small>
     </div>
   );
 };

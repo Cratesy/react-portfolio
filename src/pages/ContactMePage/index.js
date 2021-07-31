@@ -11,7 +11,7 @@ const ContactMePage = () => {
             <FaGithub title="Github" />
           </i>
         </a>
-        - Contact Me -
+        ~Contact Me~
         <a href="https://www.linkedin.com/in/michael-crates-538752200/">
           <i className="logo">
             <FaLinkedin title="LinkedIn" />
