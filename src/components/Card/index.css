@@ -10,12 +10,20 @@
 }
 
 .showcase img {
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 450px;
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+}
+
+@media screen and (max-width: 812px) {
+  .showcase img {
+    position: relative;
+    height: 200px;
+    width: 250px;
+  }
 }
