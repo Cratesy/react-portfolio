@@ -20,3 +20,9 @@
 .message {
   height: 10vh;
 }
+
+@media screen and (max-width: 812px) {
+  .form {
+    height: 46.8vh;
+  }
+}
