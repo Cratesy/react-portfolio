@@ -21,7 +21,7 @@ const Navbar = (props) => {
           <Link to="/contact-me">
             <Button name="Contact Me" />
           </Link>
-          <a href="https://drive.google.com/file/d/1P0R7viqD9GeouLT7PQu3S7xJ0Tr_DttE/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1XdYYX7q6zP2AqS3-33pnuUHgLGdPC8ap/view?usp=sharing">
             <Button name="Resume" />
           </a>
         </div>
